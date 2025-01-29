@@ -1,0 +1,2 @@
+# PHP Type Juggling Bug
+This example demonstrates a common error in PHP stemming from its loose typing system. When performing arithmetic operations, PHP will implicitly convert strings to numbers if possible.  However, this conversion can lead to unexpected behavior if the string cannot be converted to a valid number (as shown here with '4a'). This can be difficult to debug, as the error is not always immediately obvious.
